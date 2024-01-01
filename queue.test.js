@@ -58,6 +58,7 @@ describe("dequeue", function () {
 describe("peek", function () {
   it("returns the value at the start of the queue", function () {
     queue.enqueue(3);
+    console.log(queue);
     expect(queue.peek()).toBe(3);
 
     queue.enqueue(5);
